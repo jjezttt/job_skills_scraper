@@ -1,0 +1,14 @@
+# requirements.txt
+# This file lists the Python libraries needed to run the job analyzer project.
+
+# --- For the Data Pipeline & Analysis (pipeline.py) ---
+pandas==2.2.2
+playwright==1.45.0
+
+# --- For the API Backend (api.py) ---
+fastapi==0.111.0
+uvicorn==0.29.0
+
+# --- For the Frontend (app.py) ---
+streamlit==1.38.0
+requests==2.31.0
